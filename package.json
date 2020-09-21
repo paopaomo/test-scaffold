@@ -9,14 +9,15 @@
     "cypress": "yarn start & yarn cypress:open",
     "test": "jest --coverage",
     "ratchet": "jest-coverage-ratchet",
-    "lint": "eslint src/** --fix"
+    "lint": "eslint --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "src/*": [
+    "src/**": [
       "prettier --write --ignore-unknown",
+      "yarn lint",
       "git add"
     ]
   },
