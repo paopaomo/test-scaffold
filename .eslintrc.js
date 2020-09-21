@@ -8,6 +8,8 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:cypress/recommended',
     'airbnb',
+    'prettier',
+    'prettier/react'
   ],
   globals: {
     Atomics: 'readonly',

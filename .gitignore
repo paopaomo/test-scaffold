@@ -6,3 +6,4 @@ node_modules/
 cypress/screenshots/
 coverage/
 yarn-error.log
+.prettierignore

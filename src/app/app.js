@@ -1,10 +1,8 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from "react";
 
 class App extends PureComponent {
   render() {
-    return (
-      <div data-testid="app">Hello World</div>
-    );
+    return <div data-testid="app">Hello World</div>;
   }
 }
 
