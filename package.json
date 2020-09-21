@@ -64,7 +64,6 @@
     "jest": "^26.4.2",
     "jest-coverage-ratchet": "^0.2.3",
     "lint-staged": "^10.4.0",
-    "object-assign": "^4.1.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.1.2",
     "prop-types": "^15.7.2"
