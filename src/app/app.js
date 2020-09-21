@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
-class App extends React.Component {
+class App extends PureComponent {
   render() {
     return (
-          <div data-testid='app'>Hello World</div>
-    )
+      <div data-testid="app">Hello World</div>
+    );
   }
 }
 

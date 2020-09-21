@@ -8,7 +8,8 @@
     "cypress:open": "cypress open",
     "cypress": "yarn start & yarn cypress:open",
     "test": "jest --coverage",
-    "ratchet": "jest-coverage-ratchet"
+    "ratchet": "jest-coverage-ratchet",
+    "lint": "eslint src/** --fix"
   },
   "keywords": [],
   "author": "",
@@ -24,10 +25,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": "Number",
-        "functions": "Number",
-        "lines": "Number",
-        "statements": "Number"
+        "lines": 100,
+        "statements": 100,
+        "functions": 100,
+        "branches": 100
       }
     }
   },
@@ -42,6 +43,14 @@
     "@testing-library/react": "^11.0.4",
     "babel-jest": "^26.3.0",
     "cypress": "^5.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-coverage-ratchet": "^0.2.3",
