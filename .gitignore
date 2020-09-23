@@ -4,6 +4,9 @@ dist/
 node_modules/
 .DS_Store
 cypress/screenshots/
+cypress/fixtures/
+cypress/plugins/
+cypress/support/
 coverage/
 yarn-error.log
 .prettierignore
