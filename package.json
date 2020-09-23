@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html -p 8000",
+    "start": "parcel index.html",
     "cypress:open": "cypress open",
     "cypress": "yarn start & yarn cypress:open",
     "test": "jest --coverage",

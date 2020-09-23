@@ -1,6 +1,6 @@
 describe('Index page', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8000/');
+    cy.visit('/');
   });
 
   it('should render App', function () {
