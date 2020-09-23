@@ -9,7 +9,7 @@
     "cypress:open": "cypress open",
     "cypress": "yarn start & yarn cypress:run",
     "test": "jest --coverage",
-    "ratchet-auto-commit": "jest-coverage-ratchet && (git add package.json && git commit -m 'AUTO INCREASE TEST COVERAGE') || echo 'continue'",
+    "ratchet-auto-commit": "jest-coverage-ratchet && (git add package.json && git commit -m 'AUTO INCREASE TEST COVERAGE') || echo 'package.json has not changed'",
     "lint": "eslint --fix"
   },
   "keywords": [],
